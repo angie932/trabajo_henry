@@ -673,3 +673,10 @@ hr{
         width: 200%;
     }
 }
+
+@media screen and (max-width:600px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 140%;
+    }
+}
