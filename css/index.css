@@ -680,3 +680,52 @@ hr{
         width: 140%;
     }
 }
+
+@media screen and (max-width:518px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 140%;
+    }
+}
+
+@media screen and (max-width:510px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 140%;
+    }
+}
+
+@media screen and (max-width:508px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 150%;
+    }
+}
+
+@media screen and (max-width:484px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 150%;
+    }
+}
+
+@media screen and (max-width:478px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 170%;
+    }
+}
+
+@media screen and (max-width:397px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 180%;
+    }
+}
+
+@media screen and (max-width:179px){
+    header, .contenido_imagen,.contenido_imagen2, .contenido_imagen3, .titulos, .caja_grid, footer{
+        border: 0px solid red;
+        width: 230%;
+    }
+}
