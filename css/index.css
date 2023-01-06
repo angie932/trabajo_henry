@@ -497,7 +497,6 @@ hr{
 
     header, .contenido_imagen,.contenido_imagen22, .contenido_imagen3, .titulos, .caja_grid, footer{
         border: 0px solid red;
-        width: 120%;
     }
 
     .caja_imagen{
@@ -510,6 +509,12 @@ hr{
         display: flex;
         flex-wrap: wrap;
         width: 70%;
+    }
+
+    .contenido_articulo{
+        border: 0px solid red;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -681,10 +686,19 @@ hr{
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:604px){
     header, .contenido_imagen,.contenido_imagen22, .contenido_imagen3, .titulos, .caja_grid, footer{
         border: 0px solid red;
         width: 140%;
+    }
+
+    .contenido_Section{
+        width: 140%;
+    }
+
+
+    .contenido_imagen3{
+        width: 80%;
     }
 }
 
